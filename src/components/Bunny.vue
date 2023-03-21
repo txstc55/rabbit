@@ -1,6 +1,6 @@
 <template>
   <div class="loading" id="loading_text" :style="{ color: computedTextColor }">{{loading_text}}</div>
-  <div class="createdBy" :style="{ color: computedTextColor }">CREATED BY TXSTC55 <br>CONTACT: TXSTC55@GMAIL.COM</div>
+  <div class="createdBy" :style="{ color: computedTextColor }">CREATED BY XUAN TANG<br>CONTACT: TXSTC55@GMAIL.COM</div>
   <div class="canvWrapper">
     <canvas class="canvas" ref="myCanvas" />
   </div>
