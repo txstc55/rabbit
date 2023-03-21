@@ -102,7 +102,7 @@ export default {
             font: font,
             size: font_size,
             height: 0.00000001,
-            curveSegments: 64,
+            curveSegments: 2,
             bevelEnabled: false,
           } );
 
