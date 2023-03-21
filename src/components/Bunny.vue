@@ -48,7 +48,7 @@ export default {
     return {
       loadingDone: false,
       dot_length: 0,
-      character_size: 0.8,
+      character_size: 0.75,
       text_material: new THREE.MeshBasicMaterial({color: line_color}),
       flowNumber: 0,
       loading_text: "LOADING...",
@@ -98,11 +98,11 @@ export default {
             font_size = font_size * 0.8;
             repeat_time = Math.floor(l / (line_size * font_size));
           }
-          const geometry = new TextGeometry( chosen_text.repeat(Math.ceil(repeat_time * damping_repeat)), {
+          const geometry = new TextGeometry( chosen_text.repeat(Math.floor(repeat_time * damping_repeat)), {
             font: font,
             size: font_size,
             height: 0.00000001,
-            curveSegments: 12,
+            curveSegments: 64,
             bevelEnabled: false,
           } );
 
