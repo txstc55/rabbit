@@ -22,4 +22,4 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
-src/assets/loops.json
+./src/assets/loops.json
