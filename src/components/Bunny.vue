@@ -48,7 +48,7 @@ export default {
     return {
       loadingDone: false,
       dot_length: 0,
-      character_size: 18.0 / 25.0,
+      character_size: 0.8,
       text_material: new THREE.MeshBasicMaterial({color: line_color}),
       flowNumber: 0,
       loading_text: "LOADING...",
